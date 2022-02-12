@@ -3,8 +3,8 @@ import pyupbit
 import datetime
 import schedule
 from fbprophet import Prophet
-access = "vLfBdHKFSkK7Vm5z3ZEwKEx3d7H7nrL3pC3xiOYr"          # 본인 값으로 변경
-secret = "0OYOPMYOGnaYEVC9fSM5OWZ4LCU3AlTZQxFt9t6z"
+access = "otpRsJqSd9Pxrarggra8s4q6Wuqjjk5mvIT6KIUv"          # 본인 값으로 변경
+secret = "u6tl3ZOpulLwhF9vunQhsZYqGkD4ba5SM2obnjyQ"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
